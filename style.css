@@ -1,0 +1,24 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.box1{
+    background: url(./image/i1.png);
+}
+.box2{
+    background: url(./image/i2.png);
+}
+.box3{
+    background: url(./image/i3.png);
+}
+.box{
+    height: 400px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 3s all ease;
+    border: 1px solid #dddddd;
+    cursor: hand;
+}
+.box:hover{
+    background-position: bottom;
+}
