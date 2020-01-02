@@ -17,7 +17,7 @@ body{
     background-repeat: no-repeat;
     transition: 3s all ease;
     border: 1px solid #dddddd;
-    cursor: hand;
+    cursor: pointer;
 }
 .box:hover{
     background-position: bottom;
